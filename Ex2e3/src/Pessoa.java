@@ -3,6 +3,12 @@ public class Pessoa {
 	public String nome;
 	public String Endereco;
 	public String telefone;
+	public Pessoa(String Nome,String Endereco, String Telefone) {
+		this.nome = Nome;
+		this.Endereco = Endereco;
+		this.telefone = Telefone;
+		// TODO Auto-generated constructor stub
+	}
 	public String getNome() {
 		return this.nome;
 	}
