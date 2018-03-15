@@ -4,6 +4,9 @@ public class Quadrado {
 	public int lado;
 	public int area;
 	public int perimetro;
+	public Quadrado(){
+		
+	}
 	public Quadrado(int lado) {
 		// TODO Auto-generated constructor stub
 		this.lado = lado;
