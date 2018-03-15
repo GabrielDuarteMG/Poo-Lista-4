@@ -3,6 +3,9 @@ public class Pessoa {
 	public String nome;
 	public String Endereco;
 	public String telefone;
+	public Pessoa() {
+		
+	}
 	public Pessoa(String Nome,String Endereco, String Telefone) {
 		this.nome = Nome;
 		this.Endereco = Endereco;
